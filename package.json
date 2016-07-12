@@ -48,8 +48,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "grunt test"
-    "post-install": "bower install"
+    "test": "grunt test",
+    "post-install" : "bower install"
   },
   "cordovaPlugins": [
 		"org.apache.cordova.device",
