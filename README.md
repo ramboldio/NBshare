@@ -1,3 +1,4 @@
+![Sun](https://raw.githubusercontent.com/ramboldio/NBshare/master/app/images/sun.png)
 # NBshare app
 for Interaction Design ST 2016 LMU Munich
 
