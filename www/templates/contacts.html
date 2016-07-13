@@ -1,0 +1,29 @@
+<ion-view title="Contacts" id="page3" class=" ">
+
+
+
+      <ion-header-bar class="bar-stable">
+        <button ng-click="goBack()" href="/welcome" class="button button-icon icon ion-ios-arrow-back"></button>
+        <h1 class="title">
+          Contacts
+        </h1>
+      </ion-header-bar>
+
+    <ion-content padding="true" class="has-header">
+        <ion-list id="contacts-list1" class=" ">
+            <ion-item ng-click="go('/chat')" class="item-avatar" id="contacts-list-item4">
+                <img src="images/avatar1.jpg" alt="">
+                <h2>Peter</h2>
+                <p>Hey yo ich hab deine Milch jetzt..</p>
+            </ion-item>
+            <ion-item class="item-avatar" id="contacts-list-item5">
+                <img src="images/avatar2.jpg" alt="">
+                <h2>Julian</h2>
+            </ion-item>
+            <ion-item class="item-avatar" id="contacts-list-item6">
+                <img src="images/avatar3.jpg" alt="">
+                <h2>Silke</h2>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
