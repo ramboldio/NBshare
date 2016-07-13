@@ -6,7 +6,12 @@ ion-content {
 ion-content img {
   height: 100%
 }
+h3 {
+  color: #fff !important;
+  text-align: center;
+  padding: 10px;
 
+}
 .welcome {
   .button-icon {
     background: rgba(255, 255, 255, 0.5);
@@ -40,6 +45,7 @@ ion-content img {
 
 .row {
   margin-bottom: 0;
+}
   .card {
     padding: 0;
     background-repeat: no-repeat;
@@ -54,7 +60,6 @@ background: linear-gradient(to bottom,  rgba(255,255,255,0.8) 0%,rgba(255,255,25
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', endColorstr='#05ffffff',GradientType=0 ); /* IE6-9 */
 }
   }
-}
 
 
 body {
@@ -252,4 +257,14 @@ a.autolinker {
 
 .loader .ion-loading-c {
   font-size: 64px;
+}
+
+.chat-bubble.left {
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0%   {opacity: 0;}
+    95%  {opacity: 0;}
+    100% {opacity: 1;}
 }
