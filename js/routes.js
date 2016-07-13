@@ -39,6 +39,11 @@ angular.module('app.routes', [])
     templateUrl: 'templates/chat.html',
     controller: 'ctrl'
   })
+  .state('lend_me', {
+    url: '/lend_me',
+    templateUrl: 'templates/lend_me.html',
+    controller: 'ctrl'
+  })
 
 $urlRouterProvider.otherwise('/welcome')
 

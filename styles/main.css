@@ -8,7 +8,14 @@ ion-content img {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\000039}}
+h3 {
+  color: #fff !important;
+  text-align: center;
+  padding: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000316}}
 .welcome .button-icon {
   background: rgba(255, 255, 255, 0.5);
   border: 1px solid #fff;
@@ -19,19 +26,19 @@ ion-content img {
   border-radius: 50px;
   font-size: 4em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000325}}
 .welcome .button-icon:active {
   background: rgba(255, 255, 255, 0.8);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000328}}
 .welcome .button-icon.left {
   left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000331}}
 .welcome .button-icon.right {
   right: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000334}}
 .welcome .button-icon.middle {
   margin: auto;
   right: 0;
@@ -42,17 +49,18 @@ ion-content img {
   border-radius: 75px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000346}}
 .row {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000343}}
-.row .card {
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000349}}
+.card {
   padding: 0;
   background-repeat: no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000346}}
-.row .card > .item {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000352}}
+.card > .item {
   padding-bottom: 50px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.6+33,0.02+100 */
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.8+48,0.02+100 */
@@ -64,7 +72,7 @@ ion-content img {
   /* IE6-9 */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000365}}
 body {
   cursor: url("http://ionicframework.com/img/finger.png"), auto;
 }
@@ -73,26 +81,26 @@ body {
 /* optionally set a max-height */
 /* maxlength on the textarea will prevent /*
 /* it from getting too large also */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000373}}
 .bar-footer {
   overflow: visible !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000377}}
 .bar-footer textarea {
   resize: none;
   height: 25px;
 }
 
 /* fixes an ios bug bear */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000383}}
 button.ion-android-send {
   padding-top: 2px;
 }
 
 /* add this to keep your footer buttons down
 at the bottom as the textarea resizes */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000389}}
 .footer-btn-wrap {
   position: relative;
   height: 100%;
@@ -100,13 +108,13 @@ at the bottom as the textarea resizes */
   top: 7px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000396}}
 .footer-btn {
   position: absolute !important;
   bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003101}}
 img.profile-pic {
   width: 40px;
   height: 40px;
@@ -115,50 +123,50 @@ img.profile-pic {
   bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003109}}
 img.profile-pic.left {
   left: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003113}}
 img.profile-pic.right {
   right: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003117}}
 .ion-email {
   float: right;
   font-size: 32px;
   vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003123}}
 .message {
   font-size: 14px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003127}}
 .message-detail {
   white-space: nowrap;
   font-size: 14px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003132}}
 .bar.item-input-inset .item-input-wrapper input {
   width: 100% !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003136}}
 .message-wrapper {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003140}}
 .message-wrapper:last-child {
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003144}}
 .chat-bubble {
   border-radius: 5px;
   display: inline-block;
@@ -168,7 +176,7 @@ img.profile-pic.right {
   max-width: 80%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003153}}
 .chat-bubble:before {
   content: "\00a0";
   display: block;
@@ -178,21 +186,21 @@ img.profile-pic.right {
   bottom: -7.5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003162}}
 .chat-bubble.left {
   background-color: #e6e5eb;
   float: left;
   margin-left: 55px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003168}}
 .chat-bubble.left:before {
   background-color: #e6e5eb;
   left: 10px;
   -webkit-transform: rotate(70deg) skew(5deg);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003174}}
 .chat-bubble.right {
   background-color: #158ffe;
   color: #fff;
@@ -200,20 +208,20 @@ img.profile-pic.right {
   margin-right: 55px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003181}}
 .chat-bubble.right:before {
   background-color: #158ffe;
   right: 10px;
   -webkit-transform: rotate(118deg) skew(-5deg);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003187}}
 .chat-bubble.right a.autolinker {
   color: #fff;
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003192}}
 .user-messages-top-icon {
   font-size: 28px;
   display: inline-block;
@@ -223,7 +231,7 @@ img.profile-pic.right {
   right: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003201}}
 .msg-header-username {
   display: inline-block;
   vertical-align: middle;
@@ -231,29 +239,29 @@ img.profile-pic.right {
   top: -3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003208}}
 input, textarea, .item-input, .item-input-wrapper {
   background-color: #f4f4f4 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003212}}
 .bold {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003216}}
 .cf {
   clear: both !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003220}}
 a.autolinker {
   color: #3b88c3;
   text-decoration: none;
 }
 
 /* loading */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003226}}
 .loader-center {
   height: 100%;
   display: flex;
@@ -264,7 +272,24 @@ a.autolinker {
   align-items: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003258}}
 .loader .ion-loading-c {
   font-size: 64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lukas\/Projects\/NBshare\/app\/styles\/main\.scss}line{font-family:\00003262}}
+.chat-bubble.left {
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
